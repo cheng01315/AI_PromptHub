@@ -1,6 +1,6 @@
 # AI 提示词聚合平台
 
-A web-based platform for collecting, categorizing, and searching AI prompts (支持中文 / 英文双语言提示词)
+一个 AI 提示词聚合平台，用于收集、分类和搜索 AI 提示 (支持中文 / 英文双语言提示词)
 ![Platform Preview](https://i.postimg.cc/50n2hLHK/image.png)
 
 
