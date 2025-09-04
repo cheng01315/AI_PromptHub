@@ -63,14 +63,15 @@ ai-prompt-aggregator/
 
 3.  初始数据为示例提示词，可按下方「数据导入」步骤替换为自定义数据
 
-### 方式 2：部署到静态网站平台
+### 方式 2：部署到GitHub Pages
 
-1.  Fork项目后使用GitHub Pages部署、或通过上传文件至Vercel、Netlify 等静态网站平台部署
+1.  进入仓库 → 点击右上角 Settings → 左侧菜单找到 Pages。
+   
+2.  在 Source 中选择部署分支（通常是 main 或 master），并选择根目录（/root）。
+   
+3.  点击 Save，等待几分钟，页面会显示部署后的网址（如 https://<用户名>.github.io/<仓库名>/）。
 
-2.  如何开启 GitHub Pages
-- 进入仓库 → 点击右上角 Settings → 左侧菜单找到 Pages。
-- 在 Source 中选择部署分支（通常是 main 或 master），并选择根目录（/root）。
-- 点击 Save，等待几分钟，页面会显示部署后的网址（如 https://<用户名>.github.io/<仓库名>/）。
+### 也可以将项目部署至 Vercel、Netlify 等网页静态托管平台
 
 
 ## 📥 数据导入（Excel → 平台）
