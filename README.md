@@ -1,12 +1,7 @@
 # AI 提示词聚合平台
 
 A web-based platform for collecting, categorizing, and searching AI prompts (支持中文 / 英文双语言提示词)
-
-
-
-![Platform Preview](https://via.placeholder.com/1200x600?text=AI+Prompt+Aggregator+Preview)
-
-*平台预览图（实际使用时建议替换为真实截图）*
+[image.png](https://postimg.cc/Hc8m5J9b)
 
 ## 🌟 功能特性
 
