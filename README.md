@@ -147,24 +147,15 @@ python excel\_to\_prompt\_data.py
 
 
 ```
-const promptData = \[
-
-&#x20;   {
-
-&#x20;       "mainCategory": "写作创作",       // A列：大分类
-
-&#x20;       "subCategory": "小说",           // B列：小分类
-
-&#x20;       "title": "悬疑小说开头",         // C列：标题
-
-&#x20;       "chinese": "请创作一个悬疑小说的开头...",  // D列：中文提示词
-
-&#x20;       "english": "Please create the beginning of a suspense novel..."  // E列：英文提示词
-
-&#x20;   },
-
-&#x20;   // 更多提示词...
-
+const promptData = [
+    {
+        "mainCategory": "写作创作",
+        "subCategory": "小说",
+        "title": "悬疑小说开头",
+        "chinese": "请创作一个悬疑小说的开头...",
+        "english": "Please create the beginning of a suspense novel..."
+    },
+    // 更多提示词...
 ];
 ```
 
@@ -179,26 +170,16 @@ const promptData = \[
 打开 `styles.css`，修改以下变量即可调整主色调：
 
 
-
 ```
-/\* 主色调（默认蓝色） \*/
-
+/* 主色调（默认蓝色） */
 :root {
-
-&#x20;   \--primary-color: #3b82f6;        /\* 大分类选中色、按钮底色 \*/
-
-&#x20;   \--primary-light: #4299e1;       /\* 小分类选中色 \*/
-
-&#x20;   \--primary-dark: #2563eb;        /\* 按钮 hover 色 \*/
-
-&#x20;   \--text-color: #1a202c;          /\* 标题文字色 \*/
-
-&#x20;   \--text-gray: #4a5568;           /\* 辅助文字色 \*/
-
-&#x20;   \--bg-light: #f7fafc;            /\* 页面背景色 \*/
-
-&#x20;   \--card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /\* 卡片阴影 \*/
-
+    --primary-color: #3b82f6;        /* 大分类选中色、按钮底色 */
+    --primary-light: #4299e1;       /* 小分类选中色 */
+    --primary-dark: #2563eb;        /* 按钮 hover 色 */
+    --text-color: #1a202c;          /* 标题文字色 */
+    --text-gray: #4a5568;           /* 辅助文字色 */
+    --bg-light: #f7fafc;            /* 页面背景色 */
+    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* 卡片阴影 */
 }
 ```
 
@@ -209,13 +190,9 @@ const promptData = \[
 *   **卡片数量**：修改 `index.html` 中卡片容器的 `grid-cols` 属性
 
 
-
 ```
-\<!-- 桌面端默认5列，可改为3列/4列等 -->
-
-\<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6" id="prompt-cards-container">
+<!-- 桌面端默认5列，可改为3列/4列等 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6" id="prompt-cards-container">
 ```
-
-
 
 *   **搜索框位置**：调整 `header` 中的搜索框容器样式，可改为左侧或居中
