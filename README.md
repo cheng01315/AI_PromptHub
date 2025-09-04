@@ -2,6 +2,8 @@
 
 一个 AI 提示词聚合平台，用于收集、分类和搜索 AI 提示 (支持中文 / 英文双语言提示词)
 
+[项目案例](https://cheng01315.github.io/AI_PromptHub/)
+
 ![Platform Preview](https://i.postimg.cc/50n2hLHK/image.png)
 
 
