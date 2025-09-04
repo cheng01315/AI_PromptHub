@@ -65,9 +65,12 @@ ai-prompt-aggregator/
 
 ### 方式 2：部署到静态网站平台
 
-1.  将项目所有文件上传/fork至 GitHub Pages、Vercel、Netlify 等静态网站平台
+1.  Fork项目后使用GitHub Pages部署、或通过上传文件至Vercel、Netlify 等静态网站平台部署
 
-2.  平台会自动识别 `index.html` 作为入口文件，部署完成后即可访问
+2.  如何开启 GitHub Pages
+- 进入仓库 → 点击右上角 Settings → 左侧菜单找到 Pages。
+- 在 Source 中选择部署分支（通常是 main 或 master），并选择根目录（/root）。
+- 点击 Save，等待几分钟，页面会显示部署后的网址（如 https://<用户名>.github.io/<仓库名>/）。
 
 
 ## 📥 数据导入（Excel → 平台）
